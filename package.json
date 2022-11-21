@@ -1,7 +1,7 @@
 {
-  "name": "ksf-tokens",
-  "version": "0.1.3",
-  "description": "ksf-tokens",
+  "name": "klrf-tokens",
+  "version": "0.0.1",
+  "description": "klrf-tokens",
   "main": "index.js",
   "scripts": {
     "build-tokens-dictionary-basic-light": "npx token-transformer basic-tokens.json  tokens/light/basic-tokens.json main,light --expandTypography=true --expandShadow=true  --resolveReferences='math'",
@@ -17,14 +17,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RuDami/ksf-tokens"
+    "url": "git+https://github.com/RuDami/klrf-tokens"
   },
   "author": "fEkcL&Di.Klenz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RuDami/ksf-tokens/issues"
+    "url": "https://github.com/RuDami/klrf-tokens/issues"
   },
-  "homepage": "https://github.com/RuDami/ksf-tokens#readme",
+  "homepage": "https://github.com/RuDami/klrf-tokens#readme",
   "devDependencies": {
     "style-dictionary": "^3.7.1",
     "token-transformer": "^0.0.24"

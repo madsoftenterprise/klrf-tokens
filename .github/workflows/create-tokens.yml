@@ -32,6 +32,6 @@ jobs:
         with:
           tag-prefix: ''
         env:
-          GITHUB_TOKEN: ${{ secrets.SFERA_DEPLOY_TOKENS }}
+          GITHUB_TOKEN: ${{ secrets.LR_DEPLOY_TOKENS }}
       - name: "cat package.json"
         run: cat ./package.json
