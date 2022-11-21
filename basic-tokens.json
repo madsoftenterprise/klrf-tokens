@@ -99,7 +99,7 @@
       },
       "danger-uncolored": {
         "text-default": {
-          "value": "$validation.error.main",
+          "value": "{validation.error.main}",
           "type": "color"
         },
         "text-hover": {
