@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          token: ${{ secrets.SFERA_DEPLOY_TOKENS }}
+          token: ${{ secrets.LR_DEPLOY_TOKENS }}
       - name: "cat package.json"
         run: cat ./package.json
       - name: Setup Node.js environment
