@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 21 Nov 2022 12:18:59 GMT
+ * Generated on Mon, 21 Nov 2022 12:19:57 GMT
  */
 
 [data-theme=dark] {
@@ -13,10 +13,6 @@
   --validation-success-content: #0d6b23;
   --validation-success-bg: #e7faeb;
   --validation-success-main: #2cc54f;
-  --interactive-danger-uncolored-bg-active: $validation.error.bg;
-  --interactive-danger-uncolored-bg-hover: $validation.error.bg;
-  --interactive-danger-uncolored-text-active: $validation.error.main;
-  --interactive-danger-uncolored-text-hover: $validation.error.content;
   --interactive-scecondary-uncolored-bg-active: #4ba3f5;
   --interactive-scecondary-uncolored-bg-hover: #efefef;
   --interactive-scecondary-uncolored-text-active: #ffffff;
@@ -39,5 +35,9 @@
   --interactive-primary-text-active: #ffffff;
   --interactive-primary-text-hover: #ffffff;
   --interactive-primary-text-default: #ffffff;
+  --interactive-danger-uncolored-bg-active: var(--validation-error-bg);
+  --interactive-danger-uncolored-bg-hover: var(--validation-error-bg);
+  --interactive-danger-uncolored-text-active: var(--validation-error-main);
+  --interactive-danger-uncolored-text-hover: var(--validation-error-content);
   --interactive-danger-uncolored-text-default: var(--validation-error-main);
 }
