@@ -1,6 +1,8 @@
 name: CI
 on:
   push:
+    branch:
+      'master'
     paths-ignore:
       - 'css/**'
       - 'js/**'
