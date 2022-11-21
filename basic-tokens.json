@@ -103,19 +103,19 @@
           "type": "color"
         },
         "text-hover": {
-          "value": "$validation.error.content",
+          "value": "{validation.error.content}",
           "type": "color"
         },
         "text-active": {
-          "value": "$validation.error.main",
+          "value": "{validation.error.main}",
           "type": "color"
         },
         "bg-hover": {
-          "value": "$validation.error.bg",
+          "value": "{validation.error.bg}",
           "type": "color"
         },
         "bg-active": {
-          "value": "$validation.error.bg",
+          "value": "{validation.error.bg}",
           "type": "color"
         }
       }
