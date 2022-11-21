@@ -4,6 +4,7 @@ on:
     paths-ignore:
       - 'css/**'
       - 'js/**'
+      - 'package.json'
 
 jobs:
   build:
