@@ -1,0 +1,37 @@
+name: CI
+on:
+  push:
+    paths-ignore:
+      - 'css/**'
+      - 'js/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.SFERA_DEPLOY_TOKENS }}
+      - name: "cat package.json"
+        run: cat ./package.json
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2.4.0
+      # 'Transform Figma Tokens JSON to something Style Dictionary can read && Convert tokens according to Style Dictionary config'
+      - run: npm i
+      - run: npm run build
+      - name: 'Add files that were created during a run, e.g. created files from style dictionary or token-transformer.'
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update Tokens
+          tags: build
+#          tagging_message: build
+
+      - name: "Automated Version Bump"
+        uses: "phips28/gh-action-bump-version@master"
+        with:
+          tag-prefix: ''
+        env:
+          GITHUB_TOKEN: ${{ secrets.SFERA_DEPLOY_TOKENS }}
+      - name: "cat package.json"
+        run: cat ./package.json

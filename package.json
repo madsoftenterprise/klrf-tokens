@@ -1,0 +1,33 @@
+{
+  "name": "ksf-tokens",
+  "version": "0.1.3",
+  "description": "ksf-tokens",
+  "main": "index.js",
+  "scripts": {
+    "build-tokens-dictionary-basic-light": "npx token-transformer basic-tokens.json  tokens/light/basic-tokens.json main,light --expandTypography=true --expandShadow=true  --resolveReferences='math'",
+    "build-tokens-dictionary-basic-dark": "npx token-transformer basic-tokens.json  tokens/dark/basic-tokens.json main,dark --expandTypography=true --expandShadow=true  --resolveReferences='math'",
+    "build-tokens-dictionary-web-light": "npx token-transformer web-tokens.json  tokens/light/web-tokens.json main,light --expandTypography=true --expandShadow=true  --resolveReferences='math'",
+    "build-tokens-dictionary-web-dark": "npx token-transformer web-tokens.json  tokens/dark/web-tokens.json main,dark --expandTypography=true --expandShadow=true  --resolveReferences='math'",
+    "build-dictionary-sass-export": "style-dictionary build --config ./config-sass.js",
+    "build-dictionary-light": "style-dictionary build --config ./config.js",
+    "build-dictionary-dark": "style-dictionary build --config ./config-dark.js",
+    "build-light": "npm run build-tokens-dictionary-web-light && npm run build-tokens-dictionary-basic-light && npm run build-dictionary-light ",
+    "build-dark": "npm run build-tokens-dictionary-web-dark && npm run build-tokens-dictionary-basic-dark && npm run build-dictionary-dark",
+    "build": "npm run build-light && npm run build-dark && npm run build-dictionary-sass-export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RuDami/ksf-tokens"
+  },
+  "author": "fEkcL&Di.Klenz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RuDami/ksf-tokens/issues"
+  },
+  "homepage": "https://github.com/RuDami/ksf-tokens#readme",
+  "devDependencies": {
+    "style-dictionary": "^3.7.1",
+    "token-transformer": "^0.0.24"
+  }
+
+}
