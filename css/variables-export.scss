@@ -1,0 +1,66 @@
+/**
+ * Do not edit directly
+ * Generated on Mon, 21 Nov 2022 11:52:57 GMT
+ */
+
+$theme-colors: (
+   validation-error-content: var(--validation-error-content),
+   validation-error-bg: var(--validation-error-bg),
+   validation-error-main: var(--validation-error-main),
+   validation-warning-content: var(--validation-warning-content),
+   validation-warning-bg: var(--validation-warning-bg),
+   validation-warning-main: var(--validation-warning-main),
+   validation-success-content: var(--validation-success-content),
+   validation-success-bg: var(--validation-success-bg),
+   validation-success-main: var(--validation-success-main),
+   interactive-danger-uncolored-bg-active: var(--interactive-danger-uncolored-bg-active),
+   interactive-danger-uncolored-bg-hover: var(--interactive-danger-uncolored-bg-hover),
+   interactive-danger-uncolored-text-active: var(--interactive-danger-uncolored-text-active),
+   interactive-danger-uncolored-text-hover: var(--interactive-danger-uncolored-text-hover),
+   interactive-danger-uncolored-text-default: var(--interactive-danger-uncolored-text-default),
+   interactive-scecondary-uncolored-bg-active: var(--interactive-scecondary-uncolored-bg-active),
+   interactive-scecondary-uncolored-bg-hover: var(--interactive-scecondary-uncolored-bg-hover),
+   interactive-scecondary-uncolored-text-active: var(--interactive-scecondary-uncolored-text-active),
+   interactive-scecondary-uncolored-text-hover: var(--interactive-scecondary-uncolored-text-hover),
+   interactive-scecondary-uncolored-text-default: var(--interactive-scecondary-uncolored-text-default),
+   interactive-primary-uncolored-bg-active: var(--interactive-primary-uncolored-bg-active),
+   interactive-primary-uncolored-bg-hover: var(--interactive-primary-uncolored-bg-hover),
+   interactive-primary-uncolored-text-active: var(--interactive-primary-uncolored-text-active),
+   interactive-primary-uncolored-text-hover: var(--interactive-primary-uncolored-text-hover),
+   interactive-primary-uncolored-text-default: var(--interactive-primary-uncolored-text-default),
+   interactive-secondary-bg-active: var(--interactive-secondary-bg-active),
+   interactive-secondary-bg-hover: var(--interactive-secondary-bg-hover),
+   interactive-secondary-bg-default: var(--interactive-secondary-bg-default),
+   interactive-secondary-text-active: var(--interactive-secondary-text-active),
+   interactive-secondary-text-hover: var(--interactive-secondary-text-hover),
+   interactive-secondary-text-default: var(--interactive-secondary-text-default),
+   interactive-primary-bg-active: var(--interactive-primary-bg-active),
+   interactive-primary-bg-hover: var(--interactive-primary-bg-hover),
+   interactive-primary-bg-default: var(--interactive-primary-bg-default),
+   interactive-primary-text-active: var(--interactive-primary-text-active),
+   interactive-primary-text-hover: var(--interactive-primary-text-hover),
+   interactive-primary-text-default: var(--interactive-primary-text-default),
+   gray-1000: var(--gray-1000),
+   gray-900: var(--gray-900),
+   gray-800: var(--gray-800),
+   gray-700: var(--gray-700),
+   gray-600: var(--gray-600),
+   gray-500: var(--gray-500),
+   gray-400: var(--gray-400),
+   gray-300: var(--gray-300),
+   gray-200: var(--gray-200),
+   gray-100: var(--gray-100),
+   gray-50: var(--gray-50),
+   gray-0: var(--gray-0),
+   surface-dark-blackout: var(--surface-dark-blackout),
+   surface-blackout: var(--surface-blackout),
+   surface-backlight: var(--surface-backlight),
+   surface-back: var(--surface-back),
+   surface-middle: var(--surface-middle),
+   surface-front: var(--surface-front),
+);
+:export {
+  @each $key, $value in $theme-colors {
+    #{unquote($key)}: $value;
+  }
+}
