@@ -316,6 +316,20 @@
           "textDecoration": "{textDecoration.none}"
         },
         "type": "typography"
+      },
+      "lite": {
+        "value": {
+          "fontFamily": "{fontFamilies.main}",
+          "fontWeight": "{fontWeights.main-r}",
+          "lineHeight": "{lineHeights.x4}",
+          "fontSize": "{fontSize.x3,5}",
+          "letterSpacing": "{letterSpacing.m0,12}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "0",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
       }
     },
     "input": {
