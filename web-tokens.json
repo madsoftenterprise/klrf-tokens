@@ -11,6 +11,17 @@
           "spread": "0px"
         },
         "type": "boxShadow"
+      },
+      "popup": {
+        "value": {
+          "x": "2px",
+          "y": "4px",
+          "blur": "12px",
+          "spread": "0px",
+          "color": "#0f0f0f14",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
       }
     },
     "fontFamilies": {
