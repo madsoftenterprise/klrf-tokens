@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 24 Nov 2022 12:05:05 GMT
+ * Generated on Thu, 24 Nov 2022 12:43:40 GMT
  */
 
 $theme-colors: (
@@ -32,6 +32,12 @@ $theme-colors: (
    font-weights-main-m: var(--font-weights-main-m),
    font-weights-main-sb: var(--font-weights-main-sb),
    font-families-main: var(--font-families-main),
+   shadow-popup-type: var(--shadow-popup-type),
+   shadow-popup-color: var(--shadow-popup-color),
+   shadow-popup-spread: var(--shadow-popup-spread),
+   shadow-popup-blur: var(--shadow-popup-blur),
+   shadow-popup-y: var(--shadow-popup-y),
+   shadow-popup-x: var(--shadow-popup-x),
    shadow-card-spread: var(--shadow-card-spread),
    shadow-card-blur: var(--shadow-card-blur),
    shadow-card-y: var(--shadow-card-y),
