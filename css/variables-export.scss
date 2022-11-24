@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 24 Nov 2022 10:29:52 GMT
+ * Generated on Thu, 24 Nov 2022 12:05:05 GMT
  */
 
 $theme-colors: (
@@ -8,6 +8,7 @@ $theme-colors: (
    text-decoration-none: var(--text-decoration-none),
    text-case-none: var(--text-case-none),
    input-default-paragraph-indent: var(--input-default-paragraph-indent),
+   button-lite-paragraph-indent: var(--button-lite-paragraph-indent),
    button-default-paragraph-indent: var(--button-default-paragraph-indent),
    caption-4-weight-2-u-paragraph-indent: var(--caption-4-weight-2-u-paragraph-indent),
    caption-4-weight-2-paragraph-indent: var(--caption-4-weight-2-paragraph-indent),
@@ -92,6 +93,12 @@ $theme-colors: (
    input-default-letter-spacing: var(--letter-spacing-m0-12),
    input-default-font-weight: var(--font-weights-main-m),
    input-default-font-family: var(--font-families-main),
+   button-lite-text-decoration: var(--text-decoration-none),
+   button-lite-text-case: var(--text-case-none),
+   button-lite-paragraph-spacing: 0,
+   button-lite-letter-spacing: var(--letter-spacing-m0-12),
+   button-lite-font-weight: var(--font-weights-main-r),
+   button-lite-font-family: var(--font-families-main),
    button-default-text-decoration: var(--text-decoration-none),
    button-default-text-case: var(--text-case-none),
    button-default-paragraph-spacing: 0,
@@ -199,6 +206,8 @@ $theme-colors: (
    interactive-danger-uncolored-text-default: var(--validation-error-main),
    input-default-font-size: var(--font-size-x3-5),
    input-default-line-height: var(--line-heights-x6),
+   button-lite-font-size: var(--font-size-x3-5),
+   button-lite-line-height: var(--line-heights-x4),
    button-default-font-size: var(--font-size-x3-5),
    button-default-line-height: var(--line-heights-x4),
    caption-4-weight-2-u-font-size: var(--font-size-x3-5),
