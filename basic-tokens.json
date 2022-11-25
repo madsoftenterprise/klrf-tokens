@@ -149,7 +149,7 @@
           }
         }
       },
-      "scecondary-uncolored": {
+      "secondary-uncolored": {
         "text-default": {
           "value": "#4b4b4b",
           "type": "color"
@@ -169,6 +169,28 @@
         "bg-active": {
           "value": "#4ba3f5",
           "type": "color"
+        },
+        "is-active": {
+          "text-default": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "text-hover": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "text-active": {
+            "value": "#4b4b4b",
+            "type": "color"
+          },
+          "bg-default": {
+            "value": "#4ba3f5",
+            "type": "color"
+          },
+          "bg-hover": {
+            "value": "#3089dd",
+            "type": "color"
+          }
         }
       },
       "danger-uncolored": {
