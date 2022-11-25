@@ -213,6 +213,28 @@
         "bg-active": {
           "value": "{validation.error.bg}",
           "type": "color"
+        },
+        "is-active": {
+          "text-default": {
+            "value": "{validation.error.main}",
+            "type": "color"
+          },
+          "text-hover": {
+            "value": "{validation.error.main}",
+            "type": "color"
+          },
+          "text-active": {
+            "value": "{validation.error.main}",
+            "type": "color"
+          },
+          "bg-default": {
+            "value": "{validation.error.bg}",
+            "type": "color"
+          },
+          "bg-hove": {
+            "value": "{validation.error.content}",
+            "type": "color"
+          }
         }
       }
     },
