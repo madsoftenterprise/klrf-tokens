@@ -231,7 +231,7 @@
             "value": "{validation.error.bg}",
             "type": "color"
           },
-          "bg-hove": {
+          "bg-hoveк": {
             "value": "{validation.error.content}",
             "type": "color"
           }
