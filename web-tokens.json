@@ -376,7 +376,8 @@
     "textCase": {
       "none": {
         "value": "none",
-        "type": "textCase"
+        "type": "textCase",
+        "description": "main"
       }
     },
     "textDecoration": {
