@@ -1,9 +1,12 @@
 /**
  * Do not edit directly
- * Generated on Wed, 01 Feb 2023 12:25:56 GMT
+ * Generated on Wed, 01 Mar 2023 07:11:56 GMT
  */
 
 [data-theme=dark] {
+  --status-cancel: #fdd9d9;
+  --status-done: #dffdd9;
+  --status-in-work: #d9e7fd;
   --validation-error-content: #951a20;
   --validation-error-bg: #fbedef;
   --validation-error-main: #fc5b6c;
