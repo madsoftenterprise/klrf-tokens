@@ -281,6 +281,20 @@
           "type": "color"
         }
       }
+    },
+    "status": {
+      "in-work": {
+        "value": "#d9e7fd",
+        "type": "color"
+      },
+      "done": {
+        "value": "#dffdd9",
+        "type": "color"
+      },
+      "cancel": {
+        "value": "#fdd9d9",
+        "type": "color"
+      }
     }
   },
   "light": {
