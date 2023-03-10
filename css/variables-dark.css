@@ -1,9 +1,13 @@
 /**
  * Do not edit directly
- * Generated on Wed, 01 Mar 2023 07:11:56 GMT
+ * Generated on Fri, 10 Mar 2023 08:07:21 GMT
  */
 
 [data-theme=dark] {
+  --statistics-applications: #d6ebfd;
+  --statistics-outgoing-calls: #fccfb6;
+  --statistics-incoming-calls: #fef4b3;
+  --statistics-total-calls: #cef6c7;
   --status-cancel: #fdd9d9;
   --status-done: #dffdd9;
   --status-in-work: #d9e7fd;

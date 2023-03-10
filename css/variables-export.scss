@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 01 Mar 2023 07:11:57 GMT
+ * Generated on Fri, 10 Mar 2023 08:07:21 GMT
  */
 
 $theme-colors: (
@@ -45,6 +45,10 @@ $theme-colors: (
    shadow-card-x: var(--shadow-card-x),
    shadow-card-type: var(--shadow-card-type),
    shadow-card-color: var(--shadow-card-color),
+   statistics-applications: var(--statistics-applications),
+   statistics-outgoing-calls: var(--statistics-outgoing-calls),
+   statistics-incoming-calls: var(--statistics-incoming-calls),
+   statistics-total-calls: var(--statistics-total-calls),
    status-cancel: var(--status-cancel),
    status-done: var(--status-done),
    status-in-work: var(--status-in-work),
