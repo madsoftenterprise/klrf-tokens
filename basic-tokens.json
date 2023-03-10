@@ -295,6 +295,24 @@
         "value": "#fdd9d9",
         "type": "color"
       }
+    },
+    "statistics": {
+      "total-calls": {
+        "value": "#cef6c7",
+        "type": "color"
+      },
+      "incoming-calls": {
+        "value": "#fef4b3",
+        "type": "color"
+      },
+      "outgoing-calls": {
+        "value": "#fccfb6",
+        "type": "color"
+      },
+      "applications": {
+        "value": "#d6ebfd",
+        "type": "color"
+      }
     }
   },
   "light": {
