@@ -286,7 +286,7 @@
           "fontSize": "{fontSize.x2,5}",
           "letterSpacing": "{letterSpacing.0}",
           "paragraphSpacing": "{paragraphSpacing.0}",
-          "paragraphIndent": "{paragraphIndent.0}",
+          "paragraphIndent": "0",
           "textCase": "{textCase.none}",
           "textDecoration": "{textDecoration.none}"
         },
