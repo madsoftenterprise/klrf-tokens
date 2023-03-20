@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Fri, 10 Mar 2023 08:07:18 GMT
+// Generated on Mon, 20 Mar 2023 08:29:26 GMT
 
 $text-decoration-underline: underline;
 $text-decoration-none: none;
@@ -12,6 +12,7 @@ $caption-4-weight-2-u-paragraph-indent: 0;
 $caption-4-weight-2-paragraph-indent: 0;
 $caption-4-weight-1-paragraph-indent: 0;
 $caption-3-u-paragraph-indent: 0;
+$caption-6-paragraph-indent: 0;
 $caption-5-paragraph-indent: 0;
 $caption-3-paragraph-indent: 0;
 $paragraph-4-u-paragraph-indent: 0;
@@ -50,6 +51,7 @@ $statistics-total-calls: #cef6c7;
 $status-cancel: #fdd9d9;
 $status-done: #dffdd9;
 $status-in-work: #d9e7fd;
+$validation-indeterminate: #c3c3c3;
 $validation-error-content: #951a20;
 $validation-error-bg: #fbedef;
 $validation-error-main: #fc5b6c;
@@ -163,6 +165,12 @@ $caption-3-u-paragraph-spacing: 0;
 $caption-3-u-letter-spacing: $letter-spacing-0;
 $caption-3-u-font-weight: $font-weights-main-r;
 $caption-3-u-font-family: $font-families-main;
+$caption-6-text-decoration: $text-decoration-none;
+$caption-6-text-case: $text-case-none;
+$caption-6-paragraph-spacing: 0;
+$caption-6-letter-spacing: $letter-spacing-0;
+$caption-6-font-weight: $font-weights-main-r;
+$caption-6-font-family: $font-families-main;
 $caption-5-text-decoration: $text-decoration-none;
 $caption-5-text-case: $text-case-none;
 $caption-5-paragraph-spacing: 0;
@@ -234,6 +242,8 @@ $font-size-x5: $font-size-basic*5;
 $font-size-x4: $font-size-basic*4;
 $font-size-x3-5: $font-size-basic*3.5;
 $font-size-x3: $font-size-basic*3;
+$font-size-x2-5: $font-size-basic*2.5;
+$line-heights-x3: $font-size-basic*3;
 $line-heights-x4: $font-size-basic*4;
 $line-heights-x5: $font-size-basic*5;
 $line-heights-x6: $font-size-basic*6;
@@ -263,6 +273,8 @@ $caption-4-weight-1-font-size: $font-size-x3-5;
 $caption-4-weight-1-line-height: $line-heights-x4;
 $caption-3-u-font-size: $font-size-x4;
 $caption-3-u-line-height: $line-heights-x5;
+$caption-6-font-size: $font-size-x2-5;
+$caption-6-line-height: $line-heights-x3;
 $caption-5-font-size: $font-size-x3;
 $caption-5-line-height: $line-heights-x4;
 $caption-3-font-size: $font-size-x4;

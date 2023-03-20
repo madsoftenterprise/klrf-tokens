@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 10 Mar 2023 08:07:21 GMT
+ * Generated on Mon, 20 Mar 2023 08:29:28 GMT
  */
 
 [data-theme=dark] {
@@ -11,6 +11,7 @@
   --status-cancel: #fdd9d9;
   --status-done: #dffdd9;
   --status-in-work: #d9e7fd;
+  --validation-indeterminate: #c3c3c3;
   --validation-error-content: #951a20;
   --validation-error-bg: #fbedef;
   --validation-error-main: #fc5b6c;

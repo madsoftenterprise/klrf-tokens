@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 10 Mar 2023 08:07:21 GMT
+ * Generated on Mon, 20 Mar 2023 08:29:29 GMT
  */
 
 $theme-colors: (
@@ -14,6 +14,7 @@ $theme-colors: (
    caption-4-weight-2-paragraph-indent: var(--caption-4-weight-2-paragraph-indent),
    caption-4-weight-1-paragraph-indent: var(--caption-4-weight-1-paragraph-indent),
    caption-3-u-paragraph-indent: var(--caption-3-u-paragraph-indent),
+   caption-6-paragraph-indent: var(--caption-6-paragraph-indent),
    caption-5-paragraph-indent: var(--caption-5-paragraph-indent),
    caption-3-paragraph-indent: var(--caption-3-paragraph-indent),
    paragraph-4-u-paragraph-indent: var(--paragraph-4-u-paragraph-indent),
@@ -52,6 +53,7 @@ $theme-colors: (
    status-cancel: var(--status-cancel),
    status-done: var(--status-done),
    status-in-work: var(--status-in-work),
+   validation-indeterminate: var(--validation-indeterminate),
    validation-error-content: var(--validation-error-content),
    validation-error-bg: var(--validation-error-bg),
    validation-error-main: var(--validation-error-main),
@@ -165,6 +167,12 @@ $theme-colors: (
    caption-3-u-letter-spacing: var(--letter-spacing-0),
    caption-3-u-font-weight: var(--font-weights-main-r),
    caption-3-u-font-family: var(--font-families-main),
+   caption-6-text-decoration: var(--text-decoration-none),
+   caption-6-text-case: var(--text-case-none),
+   caption-6-paragraph-spacing: 0,
+   caption-6-letter-spacing: var(--letter-spacing-0),
+   caption-6-font-weight: var(--font-weights-main-r),
+   caption-6-font-family: var(--font-families-main),
    caption-5-text-decoration: var(--text-decoration-none),
    caption-5-text-case: var(--text-case-none),
    caption-5-paragraph-spacing: 0,
@@ -236,6 +244,8 @@ $theme-colors: (
    font-size-x4: calc(var(--font-size-basic)*4),
    font-size-x3-5: calc(var(--font-size-basic)*3.5),
    font-size-x3: calc(var(--font-size-basic)*3),
+   font-size-x2-5: calc(var(--font-size-basic)*2.5),
+   line-heights-x3: calc(var(--font-size-basic)*3),
    line-heights-x4: calc(var(--font-size-basic)*4),
    line-heights-x5: calc(var(--font-size-basic)*5),
    line-heights-x6: calc(var(--font-size-basic)*6),
@@ -265,6 +275,8 @@ $theme-colors: (
    caption-4-weight-1-line-height: var(--line-heights-x4),
    caption-3-u-font-size: var(--font-size-x4),
    caption-3-u-line-height: var(--line-heights-x5),
+   caption-6-font-size: var(--font-size-x2-5),
+   caption-6-line-height: var(--line-heights-x3),
    caption-5-font-size: var(--font-size-x3),
    caption-5-line-height: var(--line-heights-x4),
    caption-3-font-size: var(--font-size-x4),
