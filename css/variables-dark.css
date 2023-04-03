@@ -1,9 +1,10 @@
 /**
  * Do not edit directly
- * Generated on Mon, 03 Apr 2023 09:36:45 GMT
+ * Generated on Mon, 03 Apr 2023 12:07:03 GMT
  */
 
 [data-theme=dark] {
+  --quiz-bg-for-ozok: #fbedef;
   --quiz-correct-answer: #2cc54f;
   --quiz-incorrect-answer: #fc5b6c;
   --quiz-not-remember: #878787;
