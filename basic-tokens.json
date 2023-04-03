@@ -330,6 +330,10 @@
       "correct-answer": {
         "value": "#2cc54f",
         "type": "color"
+      },
+      "bg-for-ozok": {
+        "value": "#fbedef",
+        "type": "color"
       }
     }
   },
