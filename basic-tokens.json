@@ -317,6 +317,20 @@
         "value": "#d6ebfd",
         "type": "color"
       }
+    },
+    "quiz": {
+      "not-remember": {
+        "value": "#878787",
+        "type": "color"
+      },
+      "incorrect-answer": {
+        "value": "#fc5b6c",
+        "type": "color"
+      },
+      "correct-answer": {
+        "value": "#2cc54f",
+        "type": "color"
+      }
     }
   },
   "light": {
