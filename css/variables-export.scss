@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 20 Mar 2023 08:29:29 GMT
+ * Generated on Mon, 03 Apr 2023 09:36:45 GMT
  */
 
 $theme-colors: (
@@ -46,6 +46,9 @@ $theme-colors: (
    shadow-card-x: var(--shadow-card-x),
    shadow-card-type: var(--shadow-card-type),
    shadow-card-color: var(--shadow-card-color),
+   quiz-correct-answer: var(--quiz-correct-answer),
+   quiz-incorrect-answer: var(--quiz-incorrect-answer),
+   quiz-not-remember: var(--quiz-not-remember),
    statistics-applications: var(--statistics-applications),
    statistics-outgoing-calls: var(--statistics-outgoing-calls),
    statistics-incoming-calls: var(--statistics-incoming-calls),

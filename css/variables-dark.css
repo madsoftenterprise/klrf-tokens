@@ -1,9 +1,12 @@
 /**
  * Do not edit directly
- * Generated on Mon, 20 Mar 2023 08:29:28 GMT
+ * Generated on Mon, 03 Apr 2023 09:36:45 GMT
  */
 
 [data-theme=dark] {
+  --quiz-correct-answer: #2cc54f;
+  --quiz-incorrect-answer: #fc5b6c;
+  --quiz-not-remember: #878787;
   --statistics-applications: #d6ebfd;
   --statistics-outgoing-calls: #fccfb6;
   --statistics-incoming-calls: #fef4b3;
