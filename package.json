@@ -1,6 +1,6 @@
 {
   "name": "klrf-tokens",
-  "version": "0.0.23",
+  "version": "0.0.24",
   "description": "klrf-tokens",
   "main": "index.js",
   "scripts": {
