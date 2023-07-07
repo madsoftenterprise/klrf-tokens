@@ -362,6 +362,10 @@
       "dark-blackout": {
         "value": "#000000eb",
         "type": "color"
+      },
+      "yellow": {
+        "value": "#fdf09b",
+        "type": "color"
       }
     },
     "gray": {
