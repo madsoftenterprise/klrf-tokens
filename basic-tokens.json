@@ -366,6 +366,10 @@
       "yellow": {
         "value": "#fdf09b",
         "type": "color"
+      },
+      "red": {
+        "value": "#fde2e6",
+        "type": "color"
       }
     },
     "gray": {
